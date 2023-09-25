@@ -50,7 +50,7 @@ body {
 ul {
     font: 18px "Poppins", serif, sans-serif;
     list-style-type: none;
-    gap: 12px;
+    gap: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
