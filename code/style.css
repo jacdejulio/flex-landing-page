@@ -1,0 +1,260 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding: 0;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    background-color: #f3b391;
+    margin-bottom: 0;
+    justify-content: space-between;
+    color: #fafdf6;
+    padding: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+}
+
+.header .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: black;
+}
+
+
+.header .right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 30px;
+
+}
+
+.site {
+    font: 18px serif, "Poppins", sans-serif bold;
+}
+
+
+ul {
+    font: 18px "Poppins", serif, sans-serif;
+    list-style-type: none;
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fafdf6;
+    text-decoration: none;
+}
+
+/* SUBHEADER */
+
+.subheader {
+    display: flex;
+    background-color: #f3b391;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 8px;
+    margin-top: 0;
+    padding: 60px 100px;
+    font-family: "Poppins", serif, sans-serif;
+}
+
+.subheader .right {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.subheader img {
+    width: 88%;
+    height: auto;
+    border: solid 5px white;
+    border-radius: 5px;
+}
+
+
+p.left-title {
+    font: 42px "Poppins", serif, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fafdf6;
+}
+
+p.paragraph {
+    font-size: 20px;
+}
+
+.subheader .btn1 {
+    background-color: #fafdf6;
+    padding: 8px 32px;
+    border-radius: 5px;
+    font: 12px "Poppins", serif, sans-serif;
+}
+
+.subheader .btn1:hover {
+    background-color: #adc178;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+
+/* CONTENT */
+.content {
+    padding: 50px;
+    background-color: #f3d6c2;
+}
+
+.title {
+    font: 30px "Poppins", serif, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.content img {
+    width: 300px;
+    height: 200px;
+    border: solid 5px white;
+    border-radius: 5px;
+}
+
+.content .image {
+    max-width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container p {
+    width: 200px;
+    font-family: "Poppins", serif, sans-serif;
+}
+
+/* QUOTE */
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20%;
+    background-color: #fafdf6;
+}
+
+.quote .text {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote .name {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Poppins", serif, sans-serif;
+}
+
+/* CTA */
+
+.cta {
+    background-color: #f3d6c2;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .main {
+    background-color: #64b5f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 2% 5%;
+    font-family: "Poppins", serif, sans-serif;
+    max-width: 75%;
+}
+
+.cta .left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+
+.cta .right {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.cta .text1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.cta .text2 {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    margin-top: 0;
+}
+
+.cta button {
+    background-color: #adc178;
+    border: 2px solid white;
+    color: white;
+    width: 100%;
+    padding: 8px 32px;
+    border-radius: 5px;
+    font: 12px "Poppins", serif, sans-serif;
+}
+
+.cta button:hover {
+    background-color: #fafdf6;
+    color: black;
+    border: 2px solid black;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    background-color: #f3b391;
+    font: 12px "Poppins", serif, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
