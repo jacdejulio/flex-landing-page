@@ -10,10 +10,9 @@ body {
 .header {
     display: flex;
     background-color: #f3b391;
-    margin-bottom: 0;
     justify-content: space-between;
     color: #fafdf6;
-    padding: 30px 30px 20px;
+    padding: 25px;
     border-bottom: 1px solid #f3d6c2;
 }
 
@@ -72,7 +71,7 @@ a {
     font-size: 16px;
     gap: 8px;
     margin-top: 0;
-    padding: 30px 100px 60px;
+    padding: 60px 100px;
     font-family: "Poppins", serif, sans-serif;
 }
 
@@ -95,6 +94,7 @@ a {
 p.left-title {
     font: 42px "Poppins", serif, sans-serif;
     font-weight: bold;
+    margin-top: 0;
     margin-bottom: 10px;
     color: #fafdf6;
 }
@@ -172,9 +172,11 @@ p.paragraph {
     font-size: 28px;
     font-style: italic;
     font-weight: light;
+    margin-bottom: 0
 }
 
 .quote .name {
+    margin-top: 0;
     display: flex;
     justify-content: flex-end;
     font-family: "Poppins", serif, sans-serif;
